@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.1/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.1/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            
+            width: 800px;
+            text-align: center;  
+            font-family: "Liter", sans-serif;  
+        }
+        .songcolumn {
+            width: 300px;
+            
+        }
+        .playscolumn {
+            width: 100px;
+        }
+        .headingf{
+            font-family: "Roboto", sans-serif;   
+        }
+        .picture{
+            width: 100px;
+            border-radius: 5px;
+            margin: 20px;
+        }
+        .arrowup{
+            font-size: 30px;
+            color: blue;
+        }
+        .arrowdown{
+            font-size: 30px;
+            color: red;
+        }
+        .oddrow{
+            background-color: grey;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        p{
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="headingf">Top Songs of the Week</h1>
+    <table>
+        <tr class="headingf"><th>Rank</th>
+        <th>Photo</th>
+        <th class="songcolumn">SONG NAME/ARTIST</th>
+        <th class="playscolumn"># OF PLAYS</th>
+        <th>CHANGE</th></tr>
+        <tr class="oddrow">
+            <td>1</td>
+            <td><img class="picture" src="DIE WITH A SMILE.jpg" alt=""></td>
+            <td class="songscolumn">Lady Gaga, Bruno Mars - <p>Die With A Smile</p></td>
+            <td class="playscolumn">640,367,193</td>
+            <td>
+                <ion-icon class="arrowup" name="arrow-up-circle"></ion-icon>
+
+            </td>
+        </tr>
+        <tr><td>2</td>
+            <td><img class="picture" src="STARGAZING.jpg" alt=""></td>
+            <td class="songscolumn">Myles Smith - <p>Stargazing</p></td>
+            <td class="playscolumn">44,000,000</td>
+            <td><ion-icon class="arrowdown" name="arrow-down-circle"></ion-icon> </td></tr>
+        <tr class="oddrow">
+            <td>3</td>
+            <td><img class="picture" src="SOMEDAYS.jpg" alt=""></td>
+            <td class="songscolumn">Sonny Fodera, Jazzy, D.O.D - <p>Somedays</p></td>
+            <td class="playscolumn">14,000,000</td>
+            <td><ion-icon class="arrowup" name="arrow-up-circle"></ion-icon></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><img class="picture" src="CRY BABY.jpg" alt=""></td>
+            <td class="songscolumn">Clean Bandit, Anne-Marie, David Guetta – <p>Cry Baby</p></td>
+            <td class="playscolumn">9,900,000</td>
+            <td><ion-icon class="arrowup" name="arrow-up-circle"></ion-icon></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
